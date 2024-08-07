@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.highlight-title {
+    position: relative;
+    display: inline-block; 
+    white-space: pre-wrap;
+  }
+  
+  .highlight-title::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0.6em; /* Puedes ajustar la altura del subrayado */
+    background-color: #506DAD; /* Color del resaltador */
+    position: absolute;
+    opacity: 50%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+  }
+
+  .shadow-right {
+    box-shadow: 5px 5px 0 0 #506DAD; /* Ajusta el desplazamiento y el color sólido */
+  }
+
+
+  .blue-rounded-tl::before {
+    content: '';
+    position: absolute;
+    top: -100px; /* Ajusta según sea necesario */
+    left: -100px; /* Ajusta según sea necesario */
+    width: 600px; /* Ajusta según sea necesario */
+    height: 600px; /* Ajusta según sea necesario */
+    background-color: #08152F; /* Color azul */
+    /* border-top-left-radius: 500px 0px; Radio elíptico */
+    z-index: -1;
+  }
+  
+  
+  .laputaquetepario {
+    
+    /* border-top-left-radius: 30%; Redondeado */
+    border-top-left-radius: 500px 100px; 
+  }
