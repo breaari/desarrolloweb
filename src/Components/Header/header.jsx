@@ -23,7 +23,7 @@ return (
                     </div>
                 </div>
             </div>
-            <div className="w-[50%] flex text-center items-center justify-start overflow-hidden mq980:w-full mq980:justify-center mq980:h-[225px] mq980:pb-8">
+            <div className="w-[50%] flex text-center items-center justify-start overflow-hidden mq980:w-full mq980:justify-center mq980:h-[225px] mq980:mb-8">
                 <img src={notebook} className="w-[85%] object-cover mq980:h-[300px] rounded-br-[100px] " alt="Notebook" />
             </div>
         </div>
