@@ -17,6 +17,17 @@ export default {
       fontFamily: {
         beiruti: ['Beiruti', 'sans-serif'],
       },
+      screens: {
+        mq1220: {
+          raw: "screen and (max-width: 1220px)",
+        },
+        mq980: {
+            raw: "screen and (max-width: 980px)",
+          },
+        mq400: {
+          raw: "screen and (max-width: 400px)",
+        }
+    }
     }
   },
   plugins: [],

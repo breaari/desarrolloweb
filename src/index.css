@@ -12,8 +12,8 @@
     content: '';
     display: block;
     width: 100%;
-    height: 0.6em; /* Puedes ajustar la altura del subrayado */
-    background-color: #506DAD; /* Color del resaltador */
+    height: 0.6em; 
+    background-color: #506DAD;
     position: absolute;
     opacity: 50%;
     bottom: 0;
@@ -23,25 +23,30 @@
   }
 
   .shadow-right {
-    box-shadow: 5px 5px 0 0 #506DAD; /* Ajusta el desplazamiento y el color sólido */
+    box-shadow: 5px 5px 0 0 #506DAD; 
   }
 
 
   .blue-rounded-tl::before {
     content: '';
     position: absolute;
-    top: -100px; /* Ajusta según sea necesario */
-    left: -100px; /* Ajusta según sea necesario */
-    width: 600px; /* Ajusta según sea necesario */
-    height: 600px; /* Ajusta según sea necesario */
-    background-color: #08152F; /* Color azul */
-    /* border-top-left-radius: 500px 0px; Radio elíptico */
+    top: -100px; 
+    left: -100px; 
+    width: 600px;
+    height: 600px; 
+    background-color: #08152F;
     z-index: -1;
   }
   
   
   .laputaquetepario {
     
-    /* border-top-left-radius: 30%; Redondeado */
     border-top-left-radius: 500px 100px; 
+  }
+
+  @media (max-width: 980px) {
+    .blue-rounded-tl::before {
+      width: screen;  /* Full viewport width */
+      height: screen; /* Full viewport height */
+    }
   }
