@@ -9,8 +9,8 @@ export const TiendaNube = () => {
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
         >
-            <h1 className="font-bold text-4xl z-10 highlight-title">Personalización de Tienda Nube</h1>
-            <p className="font-semibold text-2xl mt-2">
+            <h1 className="font-bold text-4xl z-10 highlight-title mq980:text-3xl">Personalización de Tienda Nube</h1>
+            <p className="font-semibold text-2xl mt-2 mq980:text-xl">
                 {hovered 
                     ? (
                         <ul className='list-disc pl-6 text-start'>
