@@ -34,7 +34,7 @@ export const Header = () => {
                         </div>
                         <div className=" hidden mq980:block font-bold text-xl flex flex-col items-center justify-center my-4">
                             <a href="https://calendar.app.google/jt6xMpyG6N1Jnfdt5" target="_blank" rel="noopener noreferrer">
-                                <button className="w-[70%] text-celeste py-2 px-4 border-2 border-celeste hover:border-azuloscuro hover:bg-azuloscuro hover:text-white rounded-[50px] w-full text-center hover:scale-95">Agendá una reunión</button>
+                                <button className="w-[70%] text-celeste py-2 px-4 border-2 border-celeste hover:border-azuloscuro hover:bg-azuloscuro hover:text-white rounded-[50px] text-center hover:scale-95">Agendá una reunión</button>
                             </a>
                             <a href="#services" className="relative group">
                                 <button className="w-[70%] bg-celeste text-blanco py-2 px-4 rounded-[50px] border-2 border-celeste  mt-2">
